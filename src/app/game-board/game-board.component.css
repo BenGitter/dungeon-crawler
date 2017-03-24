@@ -1,0 +1,48 @@
+.game-board{
+  float: left;
+  width: 850px;
+  height: 550px;
+  box-sizing: border-box;
+}
+
+td{
+  width: 10px;
+  height: 10px;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+
+table, tr{
+  border-collapse: collapse;
+  border: none;
+}
+
+td.wall{
+  background: #81B0D9;
+}
+
+td.user{
+  background: #B40A64;
+}
+
+td.food{
+  background: rgb(10,180,100);
+}
+
+td.enemy{
+  background: black;
+}
+
+td.boss{
+  box-sizing: border-box;
+  background: red;
+}
+
+td.weapon{
+  background: orange;
+}
+
+td.hidden{
+  background: #9AC0E1;
+}

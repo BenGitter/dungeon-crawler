@@ -1,0 +1,9 @@
+<div class="game-board">
+  <table>
+    <tr *ngFor="let row of logic.board; let i = index">
+      <ng-container *ngFor="let col of logic.board[i]; let j = index">
+        <td [ngClass]="{'wall':logic.board[i][j].wall, 'user':logic.board[i][j].user, 'food': logic.board[i][j].food, 'enemy': logic.board[i][j].enemy, 'boss': logic.board[i][j].boss, 'weapon': logic.board[i][j].weapon, 'hidden': logic.board[i][j].hidden}"></td>
+      </ng-container>
+    </tr>
+  </table>
+</div>

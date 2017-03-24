@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+header.nav{
+  width: 100vw;
+  min-width: 1100px;
+  padding: 12px;
+  background: rgb(10,180,100);
+  box-sizing: border-box;
+}
+.title{
+  width: 100%;
+  max-width: 1000px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
