@@ -11,7 +11,7 @@ import { LogicService } from '../logic.service';
 })
 export class GameBoardComponent implements OnInit {
 
-  constructor(private logic:LogicService) { }
+  constructor(public logic:LogicService) { }
 
   ngOnInit() {
   }

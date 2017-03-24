@@ -8,7 +8,7 @@ import { LogicService } from '../logic.service';
 })
 export class GameInfoComponent implements OnInit {
 
-  constructor(private logic:LogicService) { }
+  constructor(public logic:LogicService) { }
 
   ngOnInit() {
   }
